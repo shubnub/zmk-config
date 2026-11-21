@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: mike1808-zmk-config
+      url: https://github.com/shubnub/mike1808-zmk-config.git
+      revision: main
+      path: modules/mike1808-zmk-config
   self:
     path: config
