@@ -1,22 +1,22 @@
 manifest:
   defaults:
-    revision: main
+    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: shubnub
+      url-base: https://github.com/shubnub
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-hsv-module
-      url: https://github.com/shubnub/zmk-hsv-module.git
-      revision: main
-      path: modules/zmk-hsv-module
+      remote: shubnub
+      # path: modules/zmk-hsv-module
     - name: nice-view-gem
-      url: https://github.com/mike1808/nice-view-gem.git
-      revision: main
-      path: modules/nice-view-gem
+      remote: m165437
+      # path: modules/nice-view-gem
   self:
     path: config
