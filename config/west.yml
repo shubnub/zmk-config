@@ -14,5 +14,9 @@ manifest:
       url: https://github.com/shubnub/zmk-hsv-module.git
       revision: main
       path: modules/zmk-hsv-module
+    - name: nice-view-gem
+      url: https://github.com/mike1808/nice-view-gem.git
+      revision: main
+      path: modules/nice-view-gem
   self:
     path: config
