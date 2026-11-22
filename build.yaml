@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano@2//zmk
-    shield: hillside_view_left
+    shield: hillside_view_left nice_view_gem
   - board: nice_nano@2//zmk
     shield: hillside_view_right
