@@ -4,17 +4,17 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: shubnub
-      url-base: https://github.com/shubnub
+    # - name: shubnub
+    #   url-base: https://github.com/shubnub
     - name: m165437
       url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: zmk-hsv-module
-      remote: shubnub
-      # path: modules/zmk-hsv-module
+    # - name: zmk-hsv-module
+    #   remote: shubnub
+    #   # path: modules/zmk-hsv-module
     - name: nice-view-gem
       remote: m165437
       # path: modules/nice-view-gem
