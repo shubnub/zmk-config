@@ -9,6 +9,7 @@ features:
   - keys
   - display
   - pointer
+  - studio
 siblings:
   - hillside_view_left
   - hillside_view_right
