@@ -17,6 +17,7 @@ manifest:
     #   # path: modules/zmk-hsv-module
     - name: nice-view-gem
       remote: m165437
+      revision: v0.3.0
       # path: modules/nice-view-gem
   self:
     path: config
