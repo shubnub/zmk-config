@@ -19,16 +19,14 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: hillside_view_left nice_view_gem
-    # snippet: studio-rpc-usb-uart # not for debugging
-    snippet: zmk-usb-logging # for debugging
+  # - board: nice_nano_v2
+  #   shield: hillside_view_left nice_view_gem
+  #   # snippet: studio-rpc-usb-uart # not for debugging
+  #   snippet: zmk-usb-logging # for debugging
   - board: nice_nano_v2
     shield: hillside_view_left nice_view
     snippet: zmk-usb-logging # for debugging
   - board: nice_nano_v2
     shield: hillside_view_right
-  - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: settings_reset
